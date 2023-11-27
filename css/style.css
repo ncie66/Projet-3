@@ -339,13 +339,13 @@ nav a:hover::after {
     background-color: #f2f2f2;
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 13400px;
     margin: auto;
 }
 
 .footer-column {
-    flex: 1; /* Chaque colonne prend une fraction égale de l'espace */
-    padding: 0 20px; /* Ajoutez du padding à gauche et à droite pour l'espacement */
+    flex: 1;
+    padding: 0 20px;
 }
 
 .footer-column h4 {
