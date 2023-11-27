@@ -335,17 +335,17 @@ nav a:hover::after {
     margin-top: 40px;
 }
 /*** Footer ***/
-.site-footer {
-    background-color: #f2f2f2;
-    padding: 20px 0;
-    font-size: 16px;
-}
-
 .footer-container {
+    background-color: #f2f2f2;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 1200px;
     margin: auto;
+}
+
+.footer-column {
+    flex: 1; /* Chaque colonne prend une fraction égale de l'espace */
+    padding: 0 20px; /* Ajoutez du padding à gauche et à droite pour l'espacement */
 }
 
 .footer-column h4 {
@@ -359,8 +359,9 @@ nav a:hover::after {
 }
 
 .footer-column ul li + li {
-    margin-top: 10px; 
+    margin-top: 10px;
 }
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
