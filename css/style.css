@@ -409,6 +409,19 @@ nav a:hover::after {
     }
 }
 
+/* Pour les écrans entre 1024px et 1440px */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .cardsMarseille {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .activity-cards-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
