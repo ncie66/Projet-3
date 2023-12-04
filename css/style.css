@@ -420,9 +420,3 @@ nav a:hover::after {
         grid-template-columns: repeat(4, 1fr);
     }
 }
-
-
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
-}
